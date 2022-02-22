@@ -34,16 +34,6 @@ section {
   position: relative;
 }
 
-/* overlay */
-
-/* .overlay {
-  background-color: #0000;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-} */
 
 /* order_content */
 
@@ -63,6 +53,8 @@ section {
   height: 100%;
 
   padding: 0 3em;
+  
+  text-align: center;
 }
 
 .order-title {
@@ -77,18 +69,18 @@ section {
 }
 
 .oder_btn {
-  background-color: #ec7d31;
+  background-color: #e5801c;
   color: #fff;
-  border: 2px solid #fcba06;
+  border: none;
   border-radius: 5px;
   padding: 0.7em 2.5em;
-  font-size: 1.2em;
+  font-size: 1.1em;
   transition: all 400ms;
   width: max-content;
 }
 
 .oder_btn:hover {
-  background-color: #fcba06;
+   background-color: #c6520c;
   color: #fff;
   transition: all 400ms;
 }
